@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Estilos generales */
+.app {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Modo Claro */
+.app {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.toggle-dark-mode {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Modo Oscuro */
+.dark-mode {
+  background-color: #333;
+  color: #f0f4f8;
+}
+
+.dark-mode .pokemon-card {
+  background: #444;
+  color: #f0f4f8;
+}
+
+.dark-mode .pokemon-detail {
+  background-color: #222;
+  color: #f0f4f8;
+}
+
+.dark-mode .pokemon-moves {
+  background-color: #333;
+  color: #f0f4f8;
+}
+
+.dark-mode .move-card {
+  background: #555;
+  color: #f0f4f8;
+}

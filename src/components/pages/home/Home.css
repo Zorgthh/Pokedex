@@ -1,0 +1,28 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .input-section p {
+    margin-bottom: 10px;
+  }
+  
+  .pokedex-section {
+    margin-top: 20px;
+  }
+  
+  .pokedex-button {
+    margin-top: 20px;
+  }
+  

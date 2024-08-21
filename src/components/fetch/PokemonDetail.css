@@ -1,0 +1,138 @@
+.pokemon-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+.pokemon-card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+}
+
+.pokemon-header {
+  background: linear-gradient(to right, #f8c6d0, #f8d1a1);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.pokemon-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pokemon-artwork {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pokemon-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.pokemon-images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.sprite-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #eaeaea;
+}
+
+.pokemon-info {
+  margin-bottom: 20px;
+}
+
+.info-item {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #444;
+}
+
+.pokemon-stats {
+  margin-bottom: 20px;
+}
+
+.pokemon-stats h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.stat-name {
+  font-weight: bold;
+}
+
+.stat-value {
+  color: #555;
+}
+
+.pokemon-moves {
+  margin-top: 20px;
+}
+
+.pokemon-moves h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.moves-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.move-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.move-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.move-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.container-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

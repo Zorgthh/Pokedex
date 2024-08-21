@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css - Archivo CSS global */
+body{
+    font-family: "Jost", sans-serif;
+}
+/* Estilo global para el fondo de la página */
